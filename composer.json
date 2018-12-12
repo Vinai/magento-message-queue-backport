@@ -1,0 +1,20 @@
+{
+    "name": "vinai/magento-message-queue-backport",
+    "description": "Metapackage to install the Magento Open Source 2.3 Message Queue related packages backported to Magento Open Source 2.2",
+    "type": "metapackage",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Vinai Kopp",
+            "email": "vinai@netzarbeiter.com"
+        }
+    ],
+    "require": {
+        "magento/product-community-edition": "^2.2.0",
+        "vinai/magento-framework-message-queue": "^100.3",
+        "vinai/magento-framework-amqp": "^100.3",
+        "vinai/magento-module-message-queue": "^100.3",
+        "vinai/magento-module-mysql-mq": "^100.3"
+    },
+    "version": "100.3.0"
+}
